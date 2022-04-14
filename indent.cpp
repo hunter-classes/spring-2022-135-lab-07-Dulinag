@@ -18,5 +18,7 @@ int countChar(std::string line, char c){
                         total++;
                 }
         }
+        cout << total << endl;
+
         return total;
 }
