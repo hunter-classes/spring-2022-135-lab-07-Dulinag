@@ -11,7 +11,11 @@ cout << "task a: " << endl;
 cout << endl;
 
     fstream myfile;
-    myfile.open("bad-code.cpp", std::ios::in);
+    //David A - added option to enter in file_name instead of having one predisposed
+    std::cout << "Enter in file name" << std::endl;
+    std::string file_name;
+    std::cin >> file_name;
+    myfile.open(file_name, std::ios::in);
 
       if (myfile.is_open()){
           string line;
