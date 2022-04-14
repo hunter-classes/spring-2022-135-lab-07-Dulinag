@@ -29,6 +29,9 @@ cout << endl;
 cout << "task b: " << endl;
 cout << endl;
 
+cout << countChar("unindeted-code.cpp", '}')<<endl;
+cout << endl;
+
 fstream myfile1;
 myfile1.open("unindented-code.cpp", std::ios::in);
 
